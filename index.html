@@ -124,7 +124,9 @@
         </form>
 
         {% if prediction_text %}
-            <h2>Result: {{ prediction_text }}</h2>
+        <div class="result">
+            🎯 Prediction: {{ prediction_text }}
+        </div>
         {% endif %}
     </div>
 </body>
