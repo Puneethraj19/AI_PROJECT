@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Load model, scaler, and encoders
 try:
-    model = pickle.load(open("model/model.pkl", "rb"))
+    model = pickle.load(open("model.pkl", "rb"))
     scaler = pickle.load(open("scaler.pkl", "rb"))
     encoders = pickle.load(open("encoders.pkl", "rb"))
 except Exception as e:
