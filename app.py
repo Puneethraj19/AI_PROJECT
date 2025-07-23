@@ -5,8 +5,8 @@ import os
 
 app = Flask(__name__)
 
-# Define correct file paths
-model_path = os.path.join("model", "model.pkl")
+# File paths (all files in the root directory)
+model_path = "model.pkl"
 scaler_path = "scaler.pkl"
 encoders_path = "encoders.pkl"
 
